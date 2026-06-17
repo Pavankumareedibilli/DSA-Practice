@@ -1,0 +1,19 @@
+
+
+POST /order
+{
+  "item": "mutton biryani",
+  "quantity": 1,
+  "spice_level": "medium"
+}
+
+
+
+
+{
+  "status": 200,
+  "order_id": 4521,
+  "item": "mutton biryani",
+  "price": 320,
+  "message": "Order confirmed. Preparing your food."
+}
