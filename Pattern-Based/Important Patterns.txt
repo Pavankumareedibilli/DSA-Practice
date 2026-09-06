@@ -1,0 +1,24 @@
+|S.No| Pattern                  | Key problems to practice                                                 |
+| -- | ------------------------ | ------------------------------------------------------------------------ |
+| 1  | Arrays & Hashing         | Two Sum, Group Anagrams, Longest Consecutive Sequence                    |
+| 2  | Two Pointers             | 3Sum, Container With Most Water, Valid Palindrome                        |
+| 3  | Sliding Window           | Longest Substring Without Repeating Characters, Minimum Window Substring |
+| 4  | Prefix Sum               | Subarray Sum Equals K, Range Sum, Product Except Self                    |
+| 5  | Binary Search            | Search in Rotated Array, First/Last Position, Search on Answer           |
+| 6  | Stack / Monotonic Stack  | Valid Parentheses, Daily Temperatures, Largest Rectangle                 |
+| 7  | Linked List              | Reverse List, Detect Cycle, Merge Lists, LRU Cache                       |
+| 8  | Fast & Slow Pointers     | Linked-list cycle, Middle of List, Happy Number                          |
+| 9  | Intervals                | Merge Intervals, Insert Interval, Meeting Rooms                          |
+| 10 | Heap / Priority Queue    | Top K Frequent, Kth Largest, Merge K Sorted Lists                        |
+| 11 | Greedy                   | Jump Game, Gas Station, Activity/Interval scheduling                     |
+| 12 | Trees — DFS              | Max Depth, Diameter, Path Sum, Lowest Common Ancestor                    |
+| 13 | Trees — BFS              | Level Order, Right Side View, Zigzag Traversal                           |
+| 14 | Graphs — DFS/BFS         | Number of Islands, Clone Graph, Course Schedule                          |
+| 15 | Topological Sort         | Course Schedule, Alien Dictionary                                        |
+| 16 | Union Find (DSU)         | Number of Provinces, Redundant Connection, Kruskal                       |
+| 17 | Backtracking             | Subsets, Permutations, Combination Sum, N-Queens                         |
+| 18 | Dynamic Programming — 1D | Climbing Stairs, House Robber, Coin Change                               |
+| 19 | Dynamic Programming — 2D | Unique Paths, LCS, Edit Distance, Knapsack                               |
+| 20 | Trie                     | Implement Trie, Word Search II                                           |
+| 21 | Bit Manipulation         | Single Number, Counting Bits, XOR problems                               |
+| 22 | Advanced Graphs          | Dijkstra, Bellman-Ford, MST, SCC                                         |
