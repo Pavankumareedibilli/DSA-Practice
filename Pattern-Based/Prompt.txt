@@ -1,0 +1,491 @@
+I am trying to master **DSA problem-solving patterns**, not memorize individual problem solutions.
+
+The problem I am currently studying is:
+
+**[PROBLEM NAME]**
+
+Teach me this problem deeply using **Python**, with the primary goal of helping me recognize the **underlying problem-solving pattern** and transfer it to unfamiliar interview questions.
+
+My biggest weakness in interviews is this:
+
+> I can often solve a problem after practicing it, but I struggle when the interviewer changes the problem slightly, adds an extra constraint, or presents the same underlying idea in an unfamiliar context.
+
+Therefore, do NOT optimize this lesson for memorizing the solution to `[PROBLEM NAME]`.
+
+Optimize it for learning:
+
+> **Pattern Recognition → Core Idea → Invariant → Adaptation → New Constraint → New Problem → New Solution**
+
+---
+
+# 1. Teach the Original Problem Deeply
+
+Start from first principles.
+
+Before showing code, explain:
+
+* What is the problem really asking?
+* How should I think about it before writing code?
+* What observations are important?
+* What decisions do I need to make?
+* What makes this problem belong to a particular DSA pattern?
+* What would an experienced interview candidate notice early?
+* What are the natural brute-force approaches?
+* Why might those approaches be inefficient or incorrect?
+* How do we gradually arrive at the optimal approach?
+
+Do NOT jump directly to the final solution.
+
+Focus on the reasoning process that leads to the solution.
+
+---
+
+# 2. Identify and Teach the Underlying Pattern
+
+Clearly identify the main DSA pattern used in the problem.
+
+Teach me:
+
+* What is the pattern called?
+* What problem characteristics usually indicate this pattern?
+* What clues in a problem statement should make me think of this pattern?
+* What mental model should I use?
+* What invariant or key observation makes the solution work?
+* What data structure or technique is commonly associated with this pattern?
+* Why does this pattern work?
+
+Then give me a reusable mental checklist:
+
+> **"When I see a problem like this, I should ask myself..."**
+
+The checklist should be useful for solving completely different problems later.
+
+Also explain:
+
+### What I should memorize
+
+Things such as:
+
+* Common patterns
+* Useful invariants
+* Typical data structures
+* Common formulas or relationships
+* Standard techniques
+
+### What I should NOT memorize
+
+Things that should instead be derived during an interview, such as:
+
+* Exact code
+* Exact variable names
+* Exact condition ordering
+* Problem-specific details
+
+The goal is to make me capable of **reconstructing the solution under interview pressure**.
+
+---
+
+# 3. Derive the Algorithm Before Coding
+
+Walk me through the solution as if you were teaching me how to discover it.
+
+Use examples to demonstrate the reasoning.
+
+Include:
+
+* A simple example
+* A normal example
+* A tricky example
+* Edge cases
+* Cases where the obvious approach fails
+* Why the final approach succeeds
+
+Whenever practical, pause at important decision points and ask me what I think should happen before revealing the next step.
+
+For example:
+
+> "At this point, what information do we actually need to keep track of?"
+
+or
+
+> "What would happen if this additional condition were true?"
+
+The purpose is to train my **algorithmic thinking**, not just show me the answer.
+
+---
+
+# 4. Python Implementation
+
+Once the reasoning is clear, provide the clean, interview-quality **Python solution**.
+
+Explain:
+
+* The complete code
+* The code line-by-line
+* Why every important condition exists
+* Why the algorithm is correct
+* The key invariant being maintained
+* Time complexity
+* Space complexity
+* Common implementation mistakes
+* Common Python-specific mistakes
+
+Also provide a simpler version of the code when useful, so I can clearly see the core idea without unnecessary complexity.
+
+Prefer code that is:
+
+* Readable
+* Idiomatic Python
+* Interview-friendly
+* Easy to reconstruct from reasoning
+
+---
+
+# 5. Generalize the Pattern
+
+This is one of the most important parts of the lesson.
+
+After solving the original problem, separate the solution into:
+
+> **Core Pattern + Problem-Specific Details**
+
+Explain:
+
+### What is reusable?
+
+Which parts of the solution are likely to appear in other problems?
+
+### What is problem-specific?
+
+Which parts exist only because of the exact wording of `[PROBLEM NAME]`?
+
+Then show me how the same pattern could appear in different domains or problem types.
+
+Give examples of related problems where the surface story looks different but the underlying reasoning is similar.
+
+The goal is for me to recognize:
+
+> "The story changed, but the pattern is the same."
+
+---
+
+# 6. Teach Me How Interviewers Modify Known Problems
+
+This is extremely important.
+
+Show me how an interviewer might take `[PROBLEM NAME]` and introduce a new constraint.
+
+Examples of possible modifications include:
+
+* Input is no longer sorted
+* Input size becomes extremely large
+* Duplicate values are allowed
+* Data arrives incrementally
+* Data cannot all fit in memory
+* We need to return additional information
+* We need to count something instead of returning the original result
+* We need to preserve ordering
+* We need to support updates/deletions
+* We need to answer repeated queries
+* There are priority rules
+* There are multiple interacting constraints
+* We need the result online/streaming
+* We need to optimize for a different complexity target
+* The original assumptions are removed
+* The interviewer combines two familiar patterns
+
+For each interesting modification, explain:
+
+> **Original Problem → New Constraint → What Breaks → What Stays the Same → How to Adapt**
+
+Do not just tell me the new solution.
+
+Teach me **how to diagnose what needs to change**.
+
+---
+
+# 7. Give Me ONE Interview-Twist Problem
+
+After teaching the original problem, give me **ONE additional interview-style problem** based on the same underlying pattern.
+
+This second problem should be deliberately designed to improve my ability to handle:
+
+> **"I know this pattern, but the interviewer has changed the rules."**
+
+### Requirements for the second problem
+
+The second problem must:
+
+* Use the same underlying DSA pattern
+* NOT be a straightforward copy of the original problem
+* Introduce **1–2 meaningful additional constraints**
+* Feel like a realistic business/product/system requirement
+* Hide the DSA pattern inside the story
+* Require actual algorithmic reasoning
+* Have a concrete coding solution
+* Be solvable using Python
+
+Good contexts include:
+
+* Scheduling
+* Calendar systems
+* Logistics
+* Delivery systems
+* Finance
+* Resource allocation
+* Cloud infrastructure
+* Networking
+* E-commerce
+* Analytics
+* Security
+* Booking systems
+* Workforce management
+
+Do NOT reveal the underlying DSA pattern in the problem statement.
+
+Present it like an actual interview question.
+
+For example, do not say:
+
+> "This is an interval problem."
+
+Instead say something like:
+
+> "You are building a resource-booking service..."
+
+The DSA pattern should become recognizable only through analysis.
+
+### Important
+
+The second problem must **not become an open-ended system-design question**.
+
+It must still be a well-defined **DSA/coding problem with a concrete algorithmic solution and complete Python implementation**.
+
+The real-world scenario is only there to hide the underlying pattern and make the additional constraint feel realistic.
+
+---
+
+# 8. Make the Second Problem Interactive — But ALWAYS Finish the Solution
+
+Do NOT immediately reveal the solution to the second problem.
+
+First, act like an interviewer.
+
+Give me only:
+
+* Scenario
+* Requirements
+* Input/output expectations
+* Constraints
+* Necessary examples
+
+Then let me reason about it.
+
+Ask questions such as:
+
+* What pattern do you recognize?
+* What observations do you have?
+* What assumptions are you making?
+* What would you try first?
+* What is the brute-force approach?
+* What is the bottleneck?
+* What edge cases matter?
+* What part of the original pattern still applies?
+* What changed?
+* What breaks because of the new constraint?
+* What could we preserve from the original solution?
+
+If I propose an incorrect approach, do not immediately give me the answer.
+
+Instead:
+
+* Point out the flaw
+* Give me a counterexample
+* Ask a guiding question
+* Let me attempt to improve the approach
+
+Gradually guide me toward the correct reasoning.
+
+### BUT VERY IMPORTANT:
+
+The lesson must **NOT depend on whether I successfully solve the second problem.**
+
+After I have had a reasonable opportunity to attempt it, **always complete the lesson yourself**.
+
+Even if my answer is completely wrong, give me the full correct solution.
+
+The second problem must always end with:
+
+### A. Problem Analysis
+
+Explain what the problem is actually asking.
+
+### B. Pattern Recognition
+
+Identify the underlying pattern and explain why it applies.
+
+### C. Constraint Analysis
+
+Explicitly identify the additional constraint(s).
+
+### D. What Breaks
+
+Explain exactly why the original solution cannot simply be copied.
+
+### E. Adaptation
+
+Show how the original pattern can be modified.
+
+### F. Step-by-Step Derivation
+
+Derive the new algorithm logically.
+
+### G. Complete Python Solution
+
+Provide a clean, interview-quality Python implementation.
+
+### H. Code Explanation
+
+Explain the important parts of the implementation.
+
+### I. Dry Run
+
+Walk through an example step-by-step.
+
+### J. Complexity
+
+Give time and space complexity.
+
+### K. Interview Lesson
+
+Explain what I should have recognized during the interview.
+
+The final learning chain should be:
+
+> **Original Pattern → Additional Constraint → What Breaks → What Stays the Same → Adapted Approach → Python Solution**
+
+---
+
+# 9. Explicitly Train "Known Pattern + New Constraint"
+
+Throughout the lesson, repeatedly reinforce this skill:
+
+> **"This problem looks different. What familiar pattern is hiding underneath?"**
+
+For every important variation, make me ask:
+
+1. What pattern is this?
+2. What is the core invariant?
+3. What assumptions did the original solution depend on?
+4. Which assumptions are still true?
+5. Which assumption changed?
+6. What part of the algorithm can I keep?
+7. What part must I change?
+8. Does the new constraint affect:
+
+   * the data structure?
+   * the traversal?
+   * the invariant?
+   * the preprocessing?
+   * the complexity?
+9. Can I combine the original pattern with another pattern?
+
+Teach me to think in terms of:
+
+> **Core Pattern + Constraints**
+
+rather than:
+
+> **Problem Name + Memorized Solution**
+
+---
+
+# 10. Common Interview Failure Modes
+
+Explain the mistakes people commonly make when they know the standard version of a problem but encounter a modified version.
+
+For example:
+
+* Blindly applying a memorized solution
+* Ignoring changed assumptions
+* Missing an important constraint
+* Optimizing the wrong part
+* Choosing the data structure too early
+* Failing to identify the invariant
+* Treating the new problem as completely unrelated
+* Changing the entire algorithm when only one component needs changing
+* Overengineering before understanding the requirement
+
+Show me how to avoid these mistakes.
+
+---
+
+# 11. Final Pattern Cheat Sheet
+
+End the lesson with a concise revision section.
+
+Use this structure:
+
+**Pattern:**
+**How to recognize it:**
+**Core idea:**
+**Key invariant:**
+**Typical data structure/technique:**
+**Common problem types:**
+**What to memorize:**
+**What to derive:**
+**Common edge cases:**
+**Common mistakes:**
+**Typical interviewer modifications:**
+**How to adapt when constraints change:**
+**Questions I should ask myself in an interview:**
+
+Then give me **3–5 additional practice prompts** based on the same underlying pattern.
+
+These should progress from:
+
+**Easy → Medium → Interview Twist → Hard**
+
+At least one should be framed as a realistic business requirement.
+
+Do NOT give solutions to these final practice prompts unless I ask for them.
+
+---
+
+# Teaching Style
+
+Act as a **DSA mentor + interview coach**, not simply a coding answer generator.
+
+Prioritize:
+
+1. Problem-solving intuition
+2. Pattern recognition
+3. Invariants
+4. Constraint analysis
+5. Adaptability
+6. Interview reasoning
+7. Clean Python implementation
+
+Always distinguish between:
+
+> **Knowing a solution**
+
+and
+
+> **Knowing how to derive and adapt a solution.**
+
+Do not optimize this lesson for memorizing code.
+
+Optimize it so that after studying `[PROBLEM NAME]`, I can face an unfamiliar interview question and think:
+
+> "I have seen this underlying pattern before."
+
+and then:
+
+> "What changed in this version?"
+
+and finally:
+
+> "Which parts of my known approach can I keep, and which parts do I need to adapt?"
+
+The ultimate goal is **pattern mastery and transfer**, not problem-specific memorization.
