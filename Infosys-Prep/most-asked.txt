@@ -1,0 +1,63 @@
+TOPICS ASKED FREQUENTLY:
+DO NOT MISS
+Greedy
+Greedy+Heaps
+2D DP with constraints
+kadanes algorithm questions
+DP on partitions
+DP on DAG/Graphs
+Infosys SP/DSE Round 2 – Frequently Asked Coding Questions
+
+Greedy (5 Questions)
+Activity Selection Problem
+Job Sequencing with Deadlines
+Minimum Number of Platforms Required
+Fractional Knapsack
+Gas Station (Complete Circular Tour)
+
+Greedy + Heaps (5 Questions)
+Minimum Cost to Connect Ropes
+Merge K Sorted Arrays
+Rearrange String So No Two Adjacent Characters Are Same
+Task Scheduler
+Huffman Coding
+
+2D Dynamic Programming with Constraints (5 Questions)
+Unique Paths with Obstacles
+Minimum Path Sum in a Grid
+Cherry Pickup
+Dungeon Game
+Maximum Sum Rectangle in a Matrix
+
+Kadane’s Algorithm Variants (5 Questions)
+Maximum Subarray Sum
+Maximum Circular Subarray Sum
+Maximum Product Subarray
+Maximum Sum Rectangle in a Matrix
+Flip Bits to Maximize Number of 1s
+
+DP on Partitions (5 Questions)
+Matrix Chain Multiplication
+Palindrome Partitioning II
+Burst Balloons
+Minimum Cost to Cut a Stick
+Boolean Parenthesization
+
+DP on DAG / Graphs (5 Questions)
+Longest Path in a Directed Acyclic Graph
+Shortest Path in a DAG
+Number of Ways to Reach Destination in a DAG
+Maximum Path Sum in a DAG
+Course Schedule (Topological DP)
+
+Most Important Questions (Must Practice First)
+Job Sequencing with Deadlines
+Minimum Cost to Connect Ropes
+Cherry Pickup
+Maximum Circular Subarray Sum
+Matrix Chain Multiplication
+Boolean Parenthesization
+Longest Path in a DAG
+Maximum Sum Rectangle in a Matrix
+Burst Balloons
+Task Scheduler
